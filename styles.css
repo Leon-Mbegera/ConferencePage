@@ -17,7 +17,7 @@ a {
 }
 
 .trans-header {
-  background-image: url("./Assets/session1.jpg");
+  background-image: url("./Assets/headingback.jpg");
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -26,6 +26,11 @@ a {
   text-transform: uppercase;
   font-weight: 800;
   -webkit-font-smoothing: antialiased;
+}
+
+.quote {
+  width: 50%;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
