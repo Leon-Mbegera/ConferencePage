@@ -86,7 +86,19 @@ body {
   }
 
   
+  .presenters {
+    width: 96%;
+    margin: 0 auto;
+  }
+  
 @media (min-width: 768px) {
+
+  .img-thumbnail {
+    width: 150px;
+    height: 150px;
+    margin-right: 0px;
+  }
+  
   
 
 
