@@ -6,6 +6,16 @@ a {
   height: 60px;
 }
 
+/* Colors */
+
+.chocolate {
+  color: rgb(199, 104, 36);
+}
+
+.coco {
+  font-family: "COCOGOOSE", sans-serif;
+}
+
 @media (min-width: 768px) {
   
 }
