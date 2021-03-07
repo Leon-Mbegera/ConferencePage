@@ -16,6 +16,18 @@ a {
   font-family: "COCOGOOSE", sans-serif;
 }
 
+.trans-header {
+  background-image: url("./Assets/session1.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 50px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+}
+
 @media (min-width: 768px) {
   
 }
