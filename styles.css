@@ -12,6 +12,14 @@ a {
   color: rgb(199, 104, 36);
 }
 
+.orange {
+  color: #ec5242;
+}
+
+.black {
+  color: #272a31;
+}
+
 .coco {
   font-family: "COCOGOOSE", sans-serif;
 }
@@ -51,11 +59,51 @@ body {
   padding-top: 20px;
 }
 
+.bg-light-pattern {
+  background-color: #292729;
+  background-image: radial-gradient(#282831 1px, #7c7c85 1px);
+  background-size: 20px 20px;
+  opacity: 0.7;
+}
+
+.largescrn-agenda {
+  height: 250px;
+  padding: -1rem;
+  margin: 0 0.3rem;
+}
+
 .quote {
   width: 50%;
   margin: 0 auto;
 }
 
+.agenda,
+  .sponsors {
+    margin: 6rem 0;
+    padding: 4rem 2rem;
+    color: white;
+    font-size: 12px;
+  }
+
 @media (min-width: 768px) {
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .agenda-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
