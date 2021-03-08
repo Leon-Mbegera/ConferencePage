@@ -1,5 +1,6 @@
 a {
   text-decoration: none;
+  color: #272a31;
 }
 
 .first-navigation {
@@ -45,10 +46,10 @@ body {
   background:
     linear-gradient(
       to bottom,
-      rgba(255, 255, 255, 0.3),
+      #ffffffa8,
       rgb(255, 255, 255)
     ),
-    url("./assets/arts-and-culture.jpg");
+    url("./Assets/session7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Lato", sans-serif;
@@ -90,10 +91,15 @@ body {
     font-size: 12px;
   }
 
-  
   .presenters {
     width: 96%;
     margin: 0 auto;
+  }
+
+  .aboutus {
+    width: 70%;
+    text-align: center;
+    margin: 1rem auto;
   }
   
 @media (min-width: 768px) {
