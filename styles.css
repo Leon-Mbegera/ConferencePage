@@ -20,6 +20,11 @@ a {
   color: #272a31;
 }
 
+.white {
+  background-color: #d3d3d3;
+}
+
+
 .coco {
   font-family: "COCOGOOSE", sans-serif;
 }
@@ -99,26 +104,16 @@ body {
     margin-right: 0px;
   }
   
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .agenda-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
+}
+
+.desktop-footer {
+  margin: 0 0 0 15%;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
