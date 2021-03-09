@@ -183,7 +183,11 @@ body {
 
   .categories {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+  }
+
+  .pay-button {
+    width: 20%;
   }
 }
 
