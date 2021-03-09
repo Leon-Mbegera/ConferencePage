@@ -25,6 +25,24 @@ a {
   background-color: #d3d3d3;
 }
 
+/* background colors */
+
+.bg-orange {
+  background-color: #ec5242;
+}
+
+.bg-offwhite {
+  background-color: #d3d3d3;
+}
+
+.bg-light {
+  opacity: 0.75;
+}
+
+.border {
+  border-radius: 5px;
+}
+
 
 .coco {
   font-family: "COCOGOOSE", sans-serif;
@@ -77,6 +95,23 @@ body {
 .quote {
   width: 50%;
   margin: 0 auto;
+}
+
+.envelope-border {
+  padding: 6px;
+  border: 6px solid transparent;
+  border-image:
+    4 repeating-linear-gradient(
+      -45deg,
+      #ec5242 0,
+      #ec5242 1em,
+      transparent 0,
+      transparent 2em,
+      #272a31 0,
+      #272a31 3em,
+      transparent 0,
+      transparent 4em
+    );
 }
 
 .agenda,
