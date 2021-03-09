@@ -162,17 +162,11 @@ body {
   padding: 3% 30%;
 }
 
-
 @media (max-width: 767px) {
 
   .agenda-grid > div {
     width: 100%;
     height: 120px;
-  }
-
-  .event2019 {
-    width: 400px;
-    height: 200px;
   }
 
   .wide {
