@@ -44,11 +44,7 @@ a {
 
 body {
   background:
-    linear-gradient(
-      to bottom,
-      #ffffffa8,
-      rgb(255, 255, 255)
-    ),
+    
     url("./Assets/session7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -101,6 +97,51 @@ body {
     text-align: center;
     margin: 1rem auto;
   }
+
+  .event2019 {
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgb(255, 255, 255, 0.7)
+      ),
+      url("./Assets/session1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Lato", sans-serif;
+    color: rgb(58, 29, 29);
+    position: relative;
+  }
+
+  .p-event {
+    position:absolute;
+    bottom: 0;
+  }
+
+.event2017 {
+  height: 250px;
+  width: 600px;
+  background-image:
+    linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 40%, rgba(255, 68, 51, 0.8) 100%),
+    url("./Assets/session8.jpg");
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+.past-year-2019 {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(255, 255, 255)
+    ),
+    url("./Assets/session4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  color: rgb(58, 29, 29);
+}
   
 @media (min-width: 768px) {
 
@@ -122,11 +163,22 @@ body {
   text-align: center;
 }
 
+.margin-p {
+  margin: 3% 20%;
+}
+
+.wide {
+  margin: -12px;
+  padding: 3% 30%;
+}
+
 @media (max-width: 767px) {
 
   .agenda-grid > div {
     width: 100%;
     height: 120px;
   }
+
+
 
 }
