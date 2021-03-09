@@ -147,7 +147,6 @@ body {
     color: rgb(58, 29, 29);
     position: relative;
   }
-
   .p-event {
     position: absolute;
     bottom: 0;
@@ -181,6 +180,11 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
+
+  .categories {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 .desktop-footer {
@@ -197,6 +201,8 @@ body {
   padding: 3% 30%;
 }
 
+
+
 @media (max-width: 767px) {
 
   .agenda-grid > div {
@@ -207,6 +213,12 @@ body {
   .wide {
     margin: -12px;
     padding: 3%;
+  }
+
+  .categories {
+    width: 50%;
+    margin: 1px auto;
+    
   }
   
 
