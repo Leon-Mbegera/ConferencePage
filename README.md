@@ -3,6 +3,16 @@
 Capstone Project
 
 The project is an individual assessment to demonstrate the existing knowledge of HTML and CSS and Bootstrap. It entails building a website for a Web development conference that is set to occur very soon.
+I opted to build one that applies to TechHat Company. It has three pages.
+
+The Home page
+The About page
+The Tickets page
+
+Each of these pages have versions for 2 different screen sizes:
+
+mobile: up to 768px
+desktop: from 768px
 
 
 <img src="./Assets/desktop-view.png" alt="Screenshot of desktop view">
@@ -12,18 +22,22 @@ The project is an individual assessment to demonstrate the existing knowledge of
 
 <i>Built With HTML5, CSS3, Bootstrap GIT, and VSCODE</i>
 
+<h1>Live Demo</h1>
+
 [Live Demo](https://leon-mbegera.github.io/ConferencePage/)
+
+
 
 <h1>Getting Started</h1>
 
 To get a local copy up and running follow these simple example steps.
 
-1. Go to https://leon-mbegera.github.io/ConferencePage/
-2. Click on the code and copy the HTML code.
-3. Use git bash to clone this repository on your local machine.
-4. Run `git checkout -b your-branch-name`. Make your contributions
-5. Push your branch up to your forked repository
-6. Open a Pull Request with a detailed description of the development branch of the original project for a review
+ Go to https://leon-mbegera.github.io/ConferencePage/
+ From here, you'll be able to copy repository/directory link from GitHub.
+ Use git bash to clone this repository on your local machine and you can view and edit it in your code editor
+ Run `git checkout -b your-branch-name`. To Make your desired contributions
+ Push your contributions from your branch up to your forked repository
+ Open a Pull Request with a detailed description of the development branch of the original project for a review
 
 Prerequisites Text editor, Github profile and Git.
 
