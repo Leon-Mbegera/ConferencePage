@@ -43,7 +43,6 @@ a {
   border-radius: 5px;
 }
 
-
 .coco {
   font-family: "COCOGOOSE", sans-serif;
 }
@@ -87,14 +86,19 @@ body {
 }
 
 .largescrn-agenda {
-  height: 250px;
+  height: 200px;
   padding: -1rem;
   margin: 0 0.3rem;
 }
 
 .quote {
   width: 50%;
-  margin: 0 auto;
+  margin-left: 15%;
+}
+
+.welcome-msg {
+  width: 70%;
+  margin-left: 15%;
 }
 
 .envelope-border {
@@ -206,7 +210,7 @@ body {
 }
 
 .margin-p {
-  margin: 3% 20%;
+  margin: 2% 20%;
 }
 
 .wide {
@@ -232,6 +236,26 @@ body {
     width: 50%;
     margin: 1px auto;
     
+  }
+
+  .quote {
+    width: 100%;
+    margin-left: 0;
+  
+  }
+
+  .welcome-msg {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .margin-p {
+    margin: 3% 0;
+  }
+
+  .more-info {
+    width: 100%;
+    margin-top: 0.5rem;
   }
   
 
