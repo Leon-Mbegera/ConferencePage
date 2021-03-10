@@ -198,6 +198,7 @@ body {
   .img-thumbnail {
     width: 150px;
     height: 150px;
+    padding: 0;
     margin-right: 0;
   }
 
@@ -268,5 +269,12 @@ body {
 
   .nav-logo {
     width: 100px;
+  }
+
+  .img-thumbnail {
+    width: 150px;
+    height: 100px;
+    margin-right: 0;
+    padding: 0;
   }
 }
