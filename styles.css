@@ -149,12 +149,12 @@ body {
       rgb(255, 255, 255, 0.7)
     ),
     url("./Assets/session1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: "Lato", sans-serif;
-    color: rgb(58, 29, 29);
-    position: relative;
-  }
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+  color: rgb(58, 29, 29);
+  position: relative;
+}
 
 .p-event {
   bottom: 0;
@@ -178,7 +178,6 @@ body {
 
 .nav-logo {
   padding-right: 0;
-
 }
 
 .line-height-0 {
@@ -189,7 +188,7 @@ body {
   .img-thumbnail {
     width: 150px;
     height: 150px;
-    margin-right: 0px;
+    margin-right: 0;
   }
   
   .agenda-grid {
@@ -223,7 +222,6 @@ body {
 }
 
 @media (max-width: 767px) {
-
   .agenda-grid > div {
     width: 100%;
     height: 120px;
@@ -237,13 +235,11 @@ body {
   .categories {
     width: 50%;
     margin: 1px auto;
-    
   }
 
   .quote {
     width: 100%;
     margin-left: 0;
-  
   }
 
   .welcome-msg {
