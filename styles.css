@@ -194,6 +194,10 @@ body {
   line-height: 1;
 }
 
+.main-nav {
+  height: 50px;
+}
+
 @media (min-width: 768px) {
   .img-thumbnail {
     width: 150px;
@@ -276,5 +280,9 @@ body {
     height: 100px;
     margin-right: 0;
     padding: 0;
+  }
+
+  .main-nav {
+    height: 180px;
   }
 }
