@@ -47,6 +47,11 @@ a {
   font-family: "COCOGOOSE", sans-serif;
 }
 
+.lato {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
 .trans-header {
   background-image: url("./Assets/headingback.jpg");
   background-repeat: repeat;
@@ -128,6 +133,11 @@ body {
   color: white;
   font-size: 12px;
   margin: 6rem 0;
+}
+
+.partners > h6{
+  margin-top: 1rem;
+  font-size: 20px;
 }
 
 .presenters {
