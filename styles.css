@@ -110,7 +110,6 @@ body {
 }
 
 .envelope-border {
-  padding: 6px;
   border: 6px solid transparent;
   border-image:
     4 repeating-linear-gradient(
@@ -197,6 +196,76 @@ body {
   height: 50px;
 }
 
+.step1 {
+  width: 35%;
+  margin: 2rem auto;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.step1 h6, p {
+  margin: 0 10px;
+  line-height: 1;
+}
+
+.envelope-grid {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr)
+}
+
+.envelope-grid > div {
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  padding: 10px;
+}
+
+.two-cols {
+  grid-column: 3 / 5;
+}
+
+.row1 {
+  background-color: whitesmoke;
+}
+
+.ticket-section {
+  background-color: whitesmoke;
+  padding-bottom: 70px; 
+
+}
+.envelope-grid .row4 {
+  border-bottom: none;
+}
+
+.envelope-grid .col5 {
+  border-right: none;
+}
+
+.reservation {
+  width: 95%;
+  margin: 2rem auto;
+  padding: 1.2rem;
+  position: relative;
+}
+
+.orange-box {
+  width: 30px;
+  height: 30px;
+  background-color: orangered;
+  margin: 0 auto;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -48px;
+  left: 50%;
+}
+
+.picks {
+  background-color: whitesmoke;
+}
+
 @media (min-width: 768px) {
   .img-thumbnail {
     width: 150px;
@@ -214,6 +283,8 @@ body {
   .categories {
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100px; 
   }
 
   .pay-button {
@@ -283,5 +354,17 @@ body {
 
   .main-nav {
     height: 180px;
+  }
+
+  .envelope-grid {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr)
+  }
+
+  .step1 {
+    width: 90%;
   }
 }
