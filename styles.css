@@ -233,10 +233,11 @@ p {
 
 .ticket-section {
   background-color: whitesmoke;
-  padding-bottom: 70px; 
+  padding-bottom: 70px;
 }
 
-.envelope-grid .row4 {
+.envelope-grid
+.row4 {
   border-bottom: none;
 }
 
@@ -286,7 +287,7 @@ p {
     align-items: center;
     height: 100px;
   }
-
+  
   .pay-button {
     width: 20%;
   }
