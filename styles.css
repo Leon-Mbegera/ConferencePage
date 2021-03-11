@@ -69,8 +69,7 @@ a {
 }
 
 body {
-  background:
-    url("./Assets/back-img.png");
+  background: url("./Assets/back-img.png");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Lato", sans-serif;
@@ -204,7 +203,8 @@ body {
   padding: 8px;
 }
 
-.step1 h6, p {
+.step1 h6,
+p {
   margin: 0 10px;
   line-height: 1;
 }
@@ -214,7 +214,7 @@ body {
   margin: 0 auto;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(5, 1fr)
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .envelope-grid > div {
@@ -234,8 +234,8 @@ body {
 .ticket-section {
   background-color: whitesmoke;
   padding-bottom: 70px; 
-
 }
+
 .envelope-grid .row4 {
   border-bottom: none;
 }
@@ -284,12 +284,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px; 
+    height: 100px;
   }
 
   .pay-button {
     width: 20%;
   }
+
 }
 
 .desktop-footer {
@@ -361,7 +362,7 @@ body {
     margin: 0;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(5, 1fr)
+    grid-template-columns: repeat(5, 1fr);
   }
 
   .step1 {
