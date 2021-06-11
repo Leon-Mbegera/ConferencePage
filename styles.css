@@ -1,0 +1,370 @@
+a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.first-navigation {
+  height: 60px;
+}
+
+/* Colors */
+
+.chocolate {
+  color: rgb(199, 104, 36);
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.black {
+  color: #272a31;
+}
+
+.white {
+  color: #d3d3d3;
+}
+
+/* background colors */
+
+.bg-orange {
+  background-color: #ec5242;
+}
+
+.bg-offwhite {
+  background-color: #d3d3d3;
+}
+
+.bg-black {
+  background-color: #272a31;
+}
+
+.bg-light {
+  opacity: 0.75;
+}
+
+.border {
+  border-radius: 5px;
+}
+
+.coco {
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.trans-header {
+  background-image: url("./Assets/headingback.jpg");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 50px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: url("./Assets/back-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  color: #000;
+}
+
+.dark-sessions {
+  background-color: #242830;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(53,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23000000'/%3E%3Cstop offset='1' stop-color='%23000000'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='19' height='19' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23242830' cx='9.5' cy='9.5' r='9.5'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.67'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 150px;
+  padding-top: 20px;
+}
+
+.bg-light-pattern {
+  background-color: #292729;
+  background-image: radial-gradient(#282831 1px, #7c7c85 1px);
+  background-size: 20px 20px;
+  opacity: 0.7;
+}
+
+.largescrn-agenda {
+  height: 210px;
+  padding: 1rem;
+  margin: 0 0.3rem;
+}
+
+.quote {
+  width: 50%;
+  margin-left: 15%;
+}
+
+.welcome-msg {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.envelope-border {
+  border: 6px solid transparent;
+  border-image:
+    4 repeating-linear-gradient(
+      -45deg,
+      #ec5242 0,
+      #ec5242 1em,
+      transparent 0,
+      transparent 2em,
+      #272a31 0,
+      #272a31 3em,
+      transparent 0,
+      transparent 4em
+    );
+}
+
+.agenda,
+.sponsors {
+  padding: 4rem 2rem;
+  color: white;
+  font-size: 12px;
+  margin: 6rem 0;
+}
+
+.partners > h6 {
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+.presenters {
+  margin: 0 auto;
+  width: 96%;
+}
+
+.aboutus {
+  text-align: center;
+  margin: 1rem auto;
+  width: 70%;
+}
+
+.event2019 {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(255, 255, 255, 0.7)
+    ),
+    url("./Assets/session1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+  color: rgb(58, 29, 29);
+  position: relative;
+}
+
+.p-event {
+  bottom: 0;
+  position: absolute;
+}
+
+.event2017 {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(255, 255, 255)
+    ),
+    url("./Assets/session4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  color: rgb(58, 29, 29);
+  position: relative;
+}
+
+.nav-logo {
+  padding-right: 0;
+}
+
+.line-height-0 {
+  line-height: 1;
+}
+
+.main-nav {
+  height: 50px;
+}
+
+.step1 {
+  width: 35%;
+  margin: 2rem auto;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.step1 h6,
+p {
+  margin: 0 10px;
+  line-height: 1;
+}
+
+.envelope-grid {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.envelope-grid > div {
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  padding: 10px;
+}
+
+.two-cols {
+  grid-column: 3 / 5;
+}
+
+.row1 {
+  background-color: whitesmoke;
+}
+
+.ticket-section {
+  background-color: whitesmoke;
+  padding-bottom: 70px;
+}
+
+.envelope-grid .row4 {
+  border-bottom: none;
+}
+
+.envelope-grid .col5 {
+  border-right: none;
+}
+
+.reservation {
+  width: 95%;
+  margin: 2rem auto;
+  padding: 1.2rem;
+  position: relative;
+}
+
+.orange-box {
+  width: 30px;
+  height: 30px;
+  background-color: orangered;
+  margin: 0 auto;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -48px;
+  left: 50%;
+}
+
+.picks {
+  background-color: whitesmoke;
+}
+
+@media (min-width: 768px) {
+  .img-thumbnail {
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    margin-right: 0;
+  }
+
+  .agenda-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  .pay-button {
+    width: 20%;
+  }
+}
+
+.desktop-footer {
+  margin: 0;
+  text-align: center;
+}
+
+.margin-p {
+  margin: 2% 20%;
+}
+
+.wide {
+  margin: 15px;
+  padding: 3% 30%;
+}
+
+@media (max-width: 767px) {
+  .agenda-grid > div {
+    width: 100%;
+    height: 120px;
+  }
+
+  .wide {
+    margin: -12px;
+    padding: 3%;
+  }
+
+  .categories {
+    width: 50%;
+    margin: 1px auto;
+  }
+
+  .quote {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .welcome-msg {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .margin-p {
+    margin: 3% 0;
+  }
+
+  .more-info {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .nav-logo {
+    width: 100px;
+  }
+
+  .img-thumbnail {
+    width: 150px;
+    height: 100px;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .main-nav {
+    height: 180px;
+  }
+
+  .envelope-grid {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .step1 {
+    width: 90%;
+  }
+}
